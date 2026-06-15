@@ -1,0 +1,24 @@
+import React from "react";
+import "./Header.scss"
+import logo from "../../assets/logo.png"
+function Header() {
+  return (
+    <div className="header">
+        <div className="header__logo">
+            <img src={logo} alt="logo" />
+            <h3>travel.kg</h3>
+        </div>
+        <div className="header__nav">
+            <a href="/">главная</a>
+            <a href="/">траснспорт</a>
+            <a href="/">туры</a>
+            <a href="/">о нас</a>
+        </div>
+        <div className="header__btn">
+            <button>связаться</button>
+        </div>
+        </div>
+  )
+}
+
+export default Header

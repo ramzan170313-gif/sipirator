@@ -1,0 +1,38 @@
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .header__logo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        img {
+            width: 100%;
+            height: 100%;
+        }
+        h3{
+            color: #02542D;
+
+        }
+    }
+    .header__nav{
+        display: flex;
+        gap: 30px;
+        a{
+            font-size: 25px;
+            color: #02542D;
+
+        }
+
+    }
+    .header__btn{
+        button{
+            background-color: #02542D;
+            color: #FFFFFF;
+            padding: 10px 50px;
+            border-radius: 30px;
+            font-size: 20px;
+        }
+    }
+}
