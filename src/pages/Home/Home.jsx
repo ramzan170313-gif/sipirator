@@ -3,7 +3,7 @@ import "./Home.scss"
 
 function Home() {
     return (
-        <div className="hero">
+        <section className="hero">
             <div className="hero__content">
                 <h1>туры по кыргызстану</h1>
                 <p>туры еженедельно</p>
@@ -18,7 +18,7 @@ function Home() {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 

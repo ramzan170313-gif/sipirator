@@ -33,6 +33,13 @@
             padding: 10px 50px;
             border-radius: 30px;
             font-size: 20px;
+            transition: 0.2s;
+
+        }
+        button:hover{
+            background-color: white;
+            color: #02542D;
+            transition: 0.2s;
         }
     }
 }
