@@ -1,6 +1,7 @@
 import React from "react";
 import "./Header.scss"
-import logo from "../../assets/logo.png"
+import logo from "../../../assets/logo.png";
+import { Link } from "react-router-dom";
 function Header() {
   return (
     <div className="header">
@@ -12,7 +13,7 @@ function Header() {
             <a href="/">главная</a>
             <a href="/">траснспорт</a>
             <a href="/">туры</a>
-            <a href="/">о нас</a>
+            <Link to="/about">о нас</Link>
         </div>
         <div className="header__btn">
             <button>связаться</button>

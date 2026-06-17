@@ -1,0 +1,75 @@
+.about-hero {
+  position: relative;
+  height: 600px;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  h1 {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    color: white;
+    font-size: 90px;
+  }
+
+  p {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    color: white;
+    font-size: 28px;
+    padding: 15px;
+  }
+}
+
+.who__we__are {
+  max-width: 800px;
+  margin: 150px auto;
+  text-align: center;
+  padding: 0 20px;
+
+  h2 {
+    color: #02542D;
+    margin-bottom: 20px;
+    font-size: 40px;
+    letter-spacing: 5px;
+  }
+
+  p {
+    color: #02542D;
+    font-size: 26px;
+    line-height: 1.6;
+  }
+}
+
+.why-choose {
+  display: flex;
+  justify-content: space-around;
+  max-width: 900px;
+  margin: 100px auto;
+  padding: 0 20px;
+
+  .why-choose__reasons,
+  .why-choose__stats {
+    h2, h3 {
+      color: #02542D;
+      margin-bottom: 15px;
+      font-size: 36px;
+    }
+
+    ul {
+      list-style: none;
+
+      li {
+        margin-bottom: 10px;
+        font-size: 25px;
+        color: #02542D;
+      }
+    }
+  }
+}
+
